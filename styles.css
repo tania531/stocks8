@@ -1,0 +1,21 @@
+#price {
+  float:left;
+  padding:10px;
+}
+#numShares {
+  float:left;
+  padding:10px;
+
+}
+#total {
+  float:left;
+  padding:10px;
+
+}
+#contain, #contain2{
+  display:block;
+}
+td , th {
+  margin:10px;
+  padding:10px;
+}
