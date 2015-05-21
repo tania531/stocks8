@@ -8,10 +8,10 @@
   </head>
 
   <body>
-    <div id="bal"> initial balance: $1,000,000.00</div>
+    <div id="bal"> initial balance: $1000000.00</div>
     <div id="contain">
       <label for="symbol">symbol:</label>
-      <input id="symbol" />
+      <input id="symbol"/>
       <br />
       <label for="shares" type="number"> # shares:</label>
       <input id="shares" />
@@ -27,10 +27,14 @@
         <th>total amount:</th>
       </thead>
       <tbody>
-      
+
       </tbody>
       <tfoot>
-
+        <tr>
+          <td >totals: </td>
+          <td id="sharesTotal"> </td>
+          <td id="grandTotal"></td>
+        </tr>
       </tfoot>
     </table>
 
